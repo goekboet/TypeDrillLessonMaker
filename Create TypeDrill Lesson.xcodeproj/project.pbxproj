@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC252A921B1EED12002EC8FA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC252A911B1EED12002EC8FA /* main.swift */; };
+		ACE1EEF01B394B72006DCE03 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1EEE91B394B72006DCE03 /* Lesson.swift */; };
+		ACE1EEF11B394B72006DCE03 /* LessonCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1EEEA1B394B72006DCE03 /* LessonCategory.swift */; };
+		ACE1EEF21B394B72006DCE03 /* LessonComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1EEEB1B394B72006DCE03 /* LessonComposer.swift */; };
+		ACE1EEF31B394B72006DCE03 /* NSStringGetSentenceArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1EEEC1B394B72006DCE03 /* NSStringGetSentenceArray.swift */; };
+		ACE1EEF51B394B72006DCE03 /* WikiArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1EEEE1B394B72006DCE03 /* WikiArticle.swift */; };
+		ACE1EEF61B394B72006DCE03 /* WikiFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1EEEF1B394B72006DCE03 /* WikiFetcher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC252A8C1B1EED12002EC8FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC252A8E1B1EED12002EC8FA /* Create TypeDrill Lesson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Create TypeDrill Lesson"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC252A911B1EED12002EC8FA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ACE1EEE91B394B72006DCE03 /* Lesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		ACE1EEEA1B394B72006DCE03 /* LessonCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonCategory.swift; sourceTree = "<group>"; };
+		ACE1EEEB1B394B72006DCE03 /* LessonComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonComposer.swift; sourceTree = "<group>"; };
+		ACE1EEEC1B394B72006DCE03 /* NSStringGetSentenceArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringGetSentenceArray.swift; sourceTree = "<group>"; };
+		ACE1EEEE1B394B72006DCE03 /* WikiArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiArticle.swift; sourceTree = "<group>"; };
+		ACE1EEEF1B394B72006DCE03 /* WikiFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiFetcher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC252A8B1B1EED12002EC8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC252A851B1EED12002EC8FA = {
+			isa = PBXGroup;
+			children = (
+				AC252A901B1EED12002EC8FA /* createTypeDrillLesson */,
+				AC252A8F1B1EED12002EC8FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC252A8F1B1EED12002EC8FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC252A8E1B1EED12002EC8FA /* Create TypeDrill Lesson */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC252A901B1EED12002EC8FA /* createTypeDrillLesson */ = {
+			isa = PBXGroup;
+			children = (
+				ACE1EEE91B394B72006DCE03 /* Lesson.swift */,
+				ACE1EEEA1B394B72006DCE03 /* LessonCategory.swift */,
+				ACE1EEEB1B394B72006DCE03 /* LessonComposer.swift */,
+				ACE1EEEC1B394B72006DCE03 /* NSStringGetSentenceArray.swift */,
+				ACE1EEEE1B394B72006DCE03 /* WikiArticle.swift */,
+				ACE1EEEF1B394B72006DCE03 /* WikiFetcher.swift */,
+				AC252A911B1EED12002EC8FA /* main.swift */,
+			);
+			path = createTypeDrillLesson;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC252A8D1B1EED12002EC8FA /* Create TypeDrill Lesson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC252A951B1EED12002EC8FA /* Build configuration list for PBXNativeTarget "Create TypeDrill Lesson" */;
+			buildPhases = (
+				AC252A8A1B1EED12002EC8FA /* Sources */,
+				AC252A8B1B1EED12002EC8FA /* Frameworks */,
+				AC252A8C1B1EED12002EC8FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Create TypeDrill Lesson";
+			productName = createTypeDrillLesson;
+			productReference = AC252A8E1B1EED12002EC8FA /* Create TypeDrill Lesson */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC252A861B1EED12002EC8FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Gookboet;
+				TargetAttributes = {
+					AC252A8D1B1EED12002EC8FA = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = AC252A891B1EED12002EC8FA /* Build configuration list for PBXProject "Create TypeDrill Lesson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC252A851B1EED12002EC8FA;
+			productRefGroup = AC252A8F1B1EED12002EC8FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC252A8D1B1EED12002EC8FA /* Create TypeDrill Lesson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC252A8A1B1EED12002EC8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC252A921B1EED12002EC8FA /* main.swift in Sources */,
+				ACE1EEF61B394B72006DCE03 /* WikiFetcher.swift in Sources */,
+				ACE1EEF31B394B72006DCE03 /* NSStringGetSentenceArray.swift in Sources */,
+				ACE1EEF01B394B72006DCE03 /* Lesson.swift in Sources */,
+				ACE1EEF11B394B72006DCE03 /* LessonCategory.swift in Sources */,
+				ACE1EEF21B394B72006DCE03 /* LessonComposer.swift in Sources */,
+				ACE1EEF51B394B72006DCE03 /* WikiArticle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC252A931B1EED12002EC8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC252A941B1EED12002EC8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC252A961B1EED12002EC8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Create TypeDrill Lesson";
+			};
+			name = Debug;
+		};
+		AC252A971B1EED12002EC8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Create TypeDrill Lesson";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC252A891B1EED12002EC8FA /* Build configuration list for PBXProject "Create TypeDrill Lesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC252A931B1EED12002EC8FA /* Debug */,
+				AC252A941B1EED12002EC8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC252A951B1EED12002EC8FA /* Build configuration list for PBXNativeTarget "Create TypeDrill Lesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC252A961B1EED12002EC8FA /* Debug */,
+				AC252A971B1EED12002EC8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC252A861B1EED12002EC8FA /* Project object */;
+}
